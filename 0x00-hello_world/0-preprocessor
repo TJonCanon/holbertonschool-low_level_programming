@@ -1,2 +1,2 @@
-#this is place holder text for 0-preprocessor
-
+#!/bin/bash
+gcc -E $CFILE > c
