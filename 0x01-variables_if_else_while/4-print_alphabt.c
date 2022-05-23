@@ -10,8 +10,8 @@ int main(void)
 
 	while (ch <= 122)
 	{
-	if (ch != 113 && ch != 101)
-		putchar(ch);
+		if (ch != 113 && ch != 101)
+			putchar(ch);
 		ch++;
 	}
 	putchar('\n');
