@@ -1,13 +1,14 @@
 #include "main.h"
 /**
- * more_numbers - blah
+ * print_line - blah
  *
+ * @n: bleh
  * Return - always (0)
  *
  */
 void print_line(int n)
 {
-	int x; 
+	int x;
 
 	if (n > 0)
 	{
