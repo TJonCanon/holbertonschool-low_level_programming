@@ -2,12 +2,12 @@
 
 /**
  * _pow_recursion - function that recursively multiplies x by itself y times
- * 
+ *
  * @x: multiplied number
  *
  * @y: number of times to make n go up
- * 
- * Return: I am confused 
+ *
+ * Return: I am confused
  */
 
 int _pow_recursion(int x, int y)
