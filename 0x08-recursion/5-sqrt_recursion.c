@@ -5,7 +5,7 @@
  * isqrt_rec - Ask questions
  *
  * @n: placeholder
- * 
+ *
  * @k: placeholder
  *
  * Return: int
@@ -27,11 +27,11 @@ int isqrt_rec(long k, int n)
 
 /**
  * _sqrt_recursion - returns the natural square root of a number
- * 
+ *
  * isqrt_rec - ???
- * 
+ *
  * @n: ???
- * 
+ *
  * Return: ???
  */
 
