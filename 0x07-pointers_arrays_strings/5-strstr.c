@@ -5,7 +5,7 @@
  * @haystack: string
  * @needle: substring
  *
- * Return - NULL
+ * Return: NULL
  */
 char *_strstr(char *haystack, char *needle)
 {
