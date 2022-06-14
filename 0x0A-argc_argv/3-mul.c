@@ -1,7 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-int main (int argc, char *argv[])
+/**
+ * main - multiplies two numbers
+ * @argc: count
+ * @argv: vector
+ * Return: 0
+ */
+int main(int argc, char *argv[])
 {
 	int i;
 	int j;
