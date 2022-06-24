@@ -1,10 +1,14 @@
 #include "main.h"
 
 /**
- * string_nconcat - concats two strings
- * @s1: str1
- * @s2: str2
- * @n: bytes
+ * string_nconcat - function that concats two strings
+ *
+ * @s1: string 1
+ *
+ * @s2: string 2
+ *
+ * @n: number of bytes
+ *
  * Return: new string
  */
 
@@ -46,5 +50,5 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	s3[i] = '\0';
 	free(junk);
-	return(s3);
+	return (s3);
 }
