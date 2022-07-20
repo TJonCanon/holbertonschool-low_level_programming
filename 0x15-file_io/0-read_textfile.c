@@ -1,5 +1,13 @@
 #include "main.h"
-
+/**
+ * read_textfile - reads a text file
+ *
+ * @filename: the file
+ *
+ * @letters: number of chars
+ *
+ * Return: Length
+ */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	char *buffer;
@@ -18,7 +26,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	}
 	length = read(readit, buffer, letters);
-	close (readit);
+	close(readit);
 	if (length < 0)
 	{
 		free(buffer);
