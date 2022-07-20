@@ -2,7 +2,7 @@
 /**
  * append_text_to_file - appends text to a file
  *
- * @file: name of the file appended
+ * @filename: name of the file appended
  *
  * @text_content: contents to write to file
  *
